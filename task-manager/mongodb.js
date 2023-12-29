@@ -1,3 +1,5 @@
+// /Users/ZXW6X8N/mongodb/bin/mongod --dbpath=/Users/ZXW6X8N/mongodb-data
+
 const { MongoClient, ObjectId } = require("mongodb");
 
 const connectionURL = "mongodb://127.0.0.1:27017";
