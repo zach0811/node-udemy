@@ -2,6 +2,11 @@
 
 const { MongoClient, ObjectId } = require("mongodb");
 
+//const uri = "mongodb+srv://zd0811:<password>@cluster0.zsfwf.mongodb.net/?retryWrites=true&w=majority";
+//Add ip address
+
+//compass: mongodb+srv://zd0811:<password>@cluster0.zsfwf.mongodb.net/
+
 const connectionURL = "mongodb://127.0.0.1:27017";
 const dbName = "task-manager";
 
